@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata|Work+Sans:600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #a6e56b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Prata', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+.heading-line {
+    margin-top: 20px;
+    height: 10px;
+    background: url() center center no-repeat;
+    position: relative;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background: #b5ff78;
+}
+
+.navbar li,
+.btn {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 28px;
+}
+
+
+/* NAVBAR */
+
+
+/* START */
+
+.startSection {
+    padding-top: 200px;
+    padding-bottom: 160px;
+    padding-left: 800px;
+}
+
+#start {
+    background: linear-gradient(to right, #53fd50, rgba(42, 164, 12, 0)), url(https://klike.net/uploads/posts/2022-10/1667200730_7-11.jpg);
+    min-height: 100vh;
+    background-position: right;
+    background-size: cover;
+}
+
+.startText {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    opacity: 100%;
+}
+
+
+/* START */
+
+
+/* BTN */
+
+.btn {
+    border-radius: 20;
+    padding: 16px 36px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: all 0.8 ease;
+}
+
+.btn-brand {
+    background-color: #d7f131;
+    color: rgb(0, 0, 0);
+}
+
+.btn-brand:hover {
+    color: #f0ff8d;
+    border-color: #000000;
+    background-color: transparent;
+}
+
+.btn-entrance {
+    padding: 8px 16px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+.btn-entrance:hover {
+    background-color: white;
+    color: white;
+}
+
+
+/* BTN */
+
+
+/* SERVICES */
+
+.servicesSection {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.servicesSection h1,
+h3 {
+    color: #282828;
+}
+
+.serviceTitle {
+    margin-top: 10px;
+}
+
+.price {
+    color: #93c1f9;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Prata', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* SERVICES */
+
+
+/* SECTION1 */
+
+.section1 {
+    background-color: #93c1f3;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.section1 .clientCounts {
+    color: white;
+    font-size: 80px;
+}
+
+.section1 h1 {
+    font-size: 30px;
+}
+
+.line {
+    padding-bottom: 10px;
+    width: 300px;
+    border-top: 3px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* SECTION1 */
+
+
+
+
+
+
+
+h7  {
+    color:black
+}
+.footer {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
